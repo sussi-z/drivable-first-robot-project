@@ -96,8 +96,6 @@ public class Robot extends TimedRobot {
      * autonomousCommand = new ExampleCommand(); break; }
      */
 
-
-     m_autonomousCommand = null;                   //teleop'a gitmesi için otonom değerini null yaptım, bu satır yüzünden robot hiçbir zaman otonom çalışmaz
     // schedule the autonomous command (example)
     if (m_autonomousCommand != null) {
       m_autonomousCommand.start();
